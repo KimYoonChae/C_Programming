@@ -6,5 +6,5 @@ James 176 80
     Elice 173 80
     Julie 165 50
     Eugene 182 73
-    Amy 150 48
-    Steve 160 66
+    Amy 158 48
+    Steve 170 66

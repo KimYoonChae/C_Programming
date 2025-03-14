@@ -9,6 +9,6 @@ int main(){
          bmi=weight/((height*0.01)*(0.01*height));
         if(bmi>=25.0) overweightcount++;
     }
-    printf("%d명이 비만입니다.\n",overweightcount);
+    printf("%d\n",overweightcount);
     return 0;
 }

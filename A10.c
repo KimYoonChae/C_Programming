@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 struct bmi_struct{
     char name[20]; //공백없이 알파벳으로 구성
     int height, weight;
@@ -47,8 +48,10 @@ void makeDataFile(){
     Elice 173 80\n\
     Julie 165 50\n\
     Eugene 182 73\n\
-    Amy 150 48\n\
-    Steve 160 66";
+    Amy 158 48\n\
+    Steve 170 66";
+
+
 
     FILE* fp = fopen("A10.txt", "w");
     fprintf(fp, "%s", str);

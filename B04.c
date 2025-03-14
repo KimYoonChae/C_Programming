@@ -12,9 +12,8 @@ int main(){
         }
         ave[0][i]=total[0][i]/3.0;
     }
-    printf("\n");
     for(int i=0;i<5;i++){
-        printf("%d. %d %.1f\n",i+1,total[0][i],ave[0][i]);
+        printf("%d) %d %.1f\n",i+1,total[0][i],ave[0][i]);
     }
     
     return 0;
